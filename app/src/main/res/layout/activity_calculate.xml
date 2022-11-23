@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityCalculate">
+
+    <ImageView
+        android:id="@+id/imagePpz"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/ppz"
+        android:layout_marginTop="20dp"
+        android:contentDescription="Ppz MAIWP logo" />
+
+    <!--keep gold-->
+    <TextView
+        android:id="@+id/tvKeep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="281dp"
+        android:layout_marginRight="281dp"
+        android:layout_marginBottom="490dp"
+        android:text="Keep Gold"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etKeep"
+        android:layout_width="331dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="46dp"
+        android:layout_marginRight="47dp"
+        android:layout_marginBottom="450dp"
+        android:ems="10"
+        android:gravity="left"
+        android:hint="Gram"
+        android:inputType="number"
+        android:textSize="18dp"/>
+
+    <!--wear gold-->
+    <TextView
+        android:id="@+id/tvWear"
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="157dp"
+        android:layout_marginRight="157dp"
+        android:layout_marginBottom="410dp"
+        android:text="Wearable Gold"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etWear"
+        android:layout_width="331dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="46dp"
+        android:layout_marginRight="47dp"
+        android:layout_marginBottom="370dp"
+        android:ems="10"
+        android:gravity="left"
+        android:hint="Gram"
+        android:inputType="number"
+        android:textSize="16dp"/>
+
+    <!--current value-->
+    <TextView
+        android:id="@+id/tvCurrent"
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="157dp"
+        android:layout_marginRight="157dp"
+        android:layout_marginBottom="330dp"
+        android:text="Current Gold Price"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etCurrent"
+        android:layout_width="331dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="46dp"
+        android:layout_marginRight="47dp"
+        android:layout_marginBottom="290dp"
+        android:ems="10"
+        android:gravity="left"
+        android:hint="RM"
+        android:inputType="number"
+        android:textSize="16dp"/>
+
+    <!--calculate button-->
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="200dp"
+        android:layout_marginLeft="219dp"
+        android:layout_marginRight="29dp"
+        android:layout_marginBottom="26dp"
+        android:background="@drawable/round_btn"
+        android:text="Calculate" />
+
+    <!--reset button-->
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginRight="29dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/round_btn"
+        android:text="Reset"
+        app:backgroundTint="@color/design_default_color_error" />
+
+</RelativeLayout>

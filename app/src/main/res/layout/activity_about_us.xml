@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityAboutUs">
+
+    <ImageView
+        android:id="@+id/imagePpz"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/ppz"
+        android:layout_marginTop="20dp"
+        android:contentDescription="Ppz MAIWP logo" />
+
+    <TextView
+        android:id="@+id/textYamin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/yaminDetail"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <!--link to github repo-->
+    <Button
+        android:id="@+id/btnGitHub"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginRight="29dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/round_btn"
+        android:text="Source Code"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/design_default_color_secondary" />
+
+    <!--Home button-->
+    <Button
+        android:id="@+id/btnHomeAbout"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginRight="29dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/round_btn"
+        android:text="Home" />
+
+
+
+</RelativeLayout>
